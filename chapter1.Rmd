@@ -146,6 +146,7 @@ fmodel(.___, .___)
 ```
 
 *** =solution
+```{r}
 # Construct the model
 mod1 <- lm( wage ~ 1 + age + sex, data = CPS85)
 
@@ -154,7 +155,7 @@ fmodel(mod1, ~ age + sex)
 
 # Make another graphic, reversing the roles of age and sex.
 fmodel(mod1, ~ sex + age)
-```{r}
+
 
 ```
 
