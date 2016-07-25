@@ -1,7 +1,8 @@
-title            : FreshApproach
+title            : Statistical Modeling: A Fresh Approach
 instructors      :
  - dtkaplan@gmail.com
-description      : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
+description      : "Interactive computational exercises to go along with the third edition of Statistical Modeling: a Fresh Approach."
+author_bio       : "Daniel Kaplan teaches statistics and data science at Macalester College."
 university       : DataCamp
 difficulty_level : 2
 time_needed      : 1 hour
