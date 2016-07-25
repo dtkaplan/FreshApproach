@@ -47,7 +47,7 @@ gf_boxplot(wage ~ sector + color:sex, data = CPS85)
 
 *** = sct
 ```{r}
-test_function("gf_boxplot", args = c("formula", "data"), 
+test_function("gf_boxplot", 
               not_called_msg = "It should be a box-and-whiskers plot (`gf_boxplot()`)",
               incorrect_msg = "The arguments should be a formula and `data = CPS85`.")
 success_msg("")
